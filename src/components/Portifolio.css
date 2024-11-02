@@ -1,0 +1,152 @@
+.portfolio-container {
+    min-height: 100vh;
+    background-color: #f9fafb;
+    padding: 2rem;
+  }
+  
+  .portfolio-content {
+    max-width: 72rem;
+    margin: 0 auto;
+  }
+  
+  .portfolio-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4rem;
+  }
+  
+  .profile-picture {
+    width: 12rem;
+    height: 12rem;
+    background-color: #e5e7eb;
+    border-radius: 50%;
+    margin-right: 3rem;
+    overflow: hidden;
+  }
+  
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-info {
+    color: #111827;
+  }
+  
+  .profile-name {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .profile-title {
+    font-size: 1.5rem;
+    color: #2563eb;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-summary {
+    color: #6b7280;
+    max-width: 40rem;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .social-link {
+    color: #374151;
+    transition: color 0.3s ease;
+  }
+  
+  .social-link:hover {
+    color: #2563eb;
+  }
+  
+  .portfolio-tabs .tabs-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  
+  .tab-trigger {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+  }
+  
+  .card {
+    padding: 1.5rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .skill-tag {
+    background-color: #eff6ff;
+    color: #1d4ed8;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+  }
+  
+  .projects-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .project-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  
+  .project-tech-list {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .tech-tag {
+    background-color: #f3f4f6;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    color: #4b5563;
+  }
+  
+  .project-links {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+  }
+  
+  .portfolio-footer {
+    text-align: center;
+    color: #9ca3af;
+    margin-top: 4rem;
+    font-size: 0.875rem;
+  }
+  

@@ -1,0 +1,33 @@
+/* src/components/ui/tabs.css */
+
+.tabs-list {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tabs-list button {
+    background: none;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #6b7280;
+    transition: color 0.2s;
+    border-radius: 10px;
+    
+  }
+  
+  .tabs-list button:hover,
+  .tabs-list button:focus {
+    color: #111827;
+    background-color: whitesmoke;
+    transition: color 1.5s, background-color 1.5s;
+  }
+
+  
+  .tabs-content {
+    padding: 1rem;
+    border-top: 1px solid #e5e7eb;
+  }
+  
