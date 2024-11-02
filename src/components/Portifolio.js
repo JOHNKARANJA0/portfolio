@@ -157,12 +157,12 @@ const DeveloperPortfolio = () => {
             <Card className="card">
               <CardHeader>
                 <CardTitle>Professional Achievements</CardTitle>
-                <CardDescription>Key milestones in my professional journey</CardDescription>
+                <CardDescription></CardDescription>
               </CardHeader>
               <CardContent>
                 <ul className="achievements-list">
-                  <li className="achievement">Achievement 1: Brief description</li>
-                  <li className="achievement">Achievement 2: Notable milestone</li>
+                  <li className="achievement"></li>
+                  <li className="achievement"></li>
                 </ul>
               </CardContent>
             </Card>
